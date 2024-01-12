@@ -115,8 +115,8 @@ ul li span:hover{
 }
 
 @media (max-width: 400px){
-    .row{
-
+    .container{
+        height: 100vh;
     }
 
     input{
