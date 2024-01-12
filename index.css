@@ -69,6 +69,7 @@ ul li {
     user-select: none;
     cursor: pointer;
     position: relative; /* Added this line */
+    word-wrap: break-word;
 }
 
 ul li::before {
@@ -101,6 +102,7 @@ ul li span{
     width: 40px;
     height: 40px;
     font-size: 22px;
+    background-color: white;
     color: #555;
     line-height: 40px;
     text-align: center;
@@ -108,5 +110,6 @@ ul li span{
 }
 
 ul li span:hover{
-    background-color: #edeef0;
+    background-color: red;
+    color: white;
 }
